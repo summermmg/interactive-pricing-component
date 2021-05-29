@@ -1,0 +1,22 @@
+header {
+    background-image: url('../../images/pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2.5rem 0;
+    margin: 0 0 2rem;
+    text-align: center;
+    h2 {
+        color: $dark-desaturated-blue;
+        padding: 0.3rem;
+    }
+    p {
+        color: $grayish-blue;
+        padding: 0 4rem;
+    }
+}
+
+@media (min-width: 1024px) { 
+    h2 {
+        font-size: 2.4rem;
+    }
+}

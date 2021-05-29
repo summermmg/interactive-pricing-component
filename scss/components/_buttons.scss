@@ -1,0 +1,13 @@
+.cta {
+    background-color: $dark-desaturated-blue;
+    width: 12rem;
+    height: 3rem;
+    color: $pale-blue;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    &:hover {
+        background-color: $pale-blue;
+        color: $dark-desaturated-blue;
+    }
+}

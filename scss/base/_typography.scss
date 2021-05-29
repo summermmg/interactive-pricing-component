@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+body {
+    font-family: $ff-primary;
+    font-size: $fs-primary;    
+    font-weight: 600;
+    background-color: $very-pale-blue;
+    background-image: url('../../images/bg-pattern.svg');
+    background-repeat: no-repeat;
+}
+
+main {
+    max-width: 1000px;
+    margin: 3rem 1.5rem;
+    max-width: 900px;
+}
+
+@media (min-width: 780px) {
+    body {
+        font-size: 17px;
+    }
+    main {
+        margin: 4rem auto;
+    }   
+}
+
+@media (min-width: 1024px) { 
+    body {
+        font-size: 20px;
+    }
+}

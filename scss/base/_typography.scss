@@ -11,20 +11,13 @@ body {
 main {
     max-width: 1000px;
     margin: 3rem 1.5rem;
-    max-width: 900px;
+    max-width: 600px;
 }
 
 @media (min-width: 780px) {
-    body {
-        font-size: 17px;
-    }
     main {
-        margin: 4rem auto;
+        margin: 5rem auto;
     }   
 }
 
-@media (min-width: 1024px) { 
-    body {
-        font-size: 20px;
-    }
-}
+

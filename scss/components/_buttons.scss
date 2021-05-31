@@ -11,3 +11,9 @@
         color: $dark-desaturated-blue;
     }
 }
+
+@media screen and (min-width: 780px) {
+    .cta {
+        align-self: center;
+    }
+}

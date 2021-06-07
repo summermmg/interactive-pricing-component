@@ -39,7 +39,7 @@
         input[type='range']::-webkit-slider-thumb {
             height: 2.3rem;
             width: 2.3rem;
-            background-image: url('../../images/icon-slider.svg');
+            background-image: url('images/icon-slider.svg');
             background-repeat: no-repeat;
             background-position: center;
             border-radius: 50%;
@@ -65,7 +65,7 @@
         input[type='range']::-moz-range-thumb {
             height: 2.3rem;
             width: 2.3rem;
-            background-image: url('../../images/icon-slider.svg');
+            background-image: url('images/icon-slider.svg');
             background-repeat: no-repeat;
             background-position: center;
             border-radius: 50%;
@@ -76,7 +76,7 @@
         input[type='range']::-ms-thumb {
             height: 2.3rem;
             width: 2.3rem;
-            background-image: url('../../images/icon-slider.svg');
+            background-image: url('images/icon-slider.svg');
             background-repeat: no-repeat;
             background-position: center;
             border-radius: 50%;
@@ -196,7 +196,7 @@
                 line-height: 2rem;
                 color: $grayish-blue;
                 &::before {
-                    content: url('../../images/icon-check.svg');
+                    content: url('images/icon-check.svg');
                     margin-right: 1rem;
                 }
             }
